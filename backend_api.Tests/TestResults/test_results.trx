@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e00e1513-5786-4416-bbac-6ea1b9960d30" name="@3d2e4eaaeb15 2026-03-25 19:06:40" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-03-25T19:06:40.6979467+00:00" queuing="2026-03-25T19:06:40.6979467+00:00" start="2026-03-25T19:06:39.3792555+00:00" finish="2026-03-25T19:06:40.7074415+00:00" />
+  <TestSettings name="default" id="8ba48bf8-ba6a-457f-a14f-de187ef8b788">
+    <Deployment runDeploymentRoot="_3d2e4eaaeb15_2026-03-25_19_06_40" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8de14da8-d952-417b-82d0-cdd830f3aebd" testId="e6968a55-7b72-c906-2f04-54bac17f6c3f" testName="backend_api.Tests.UnitTest1.Test1" computerName="3d2e4eaaeb15" duration="00:00:00.0024233" startTime="2026-03-25T19:06:40.5486168+00:00" endTime="2026-03-25T19:06:40.5486488+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8de14da8-d952-417b-82d0-cdd830f3aebd" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="backend_api.Tests.UnitTest1.Test1" storage="/home/kavia/workspace/code-generation/outage-management-and-dispatch-platform-3142-3151/backend_api.tests/bin/release/net8.0/backend_api.tests.dll" id="e6968a55-7b72-c906-2f04-54bac17f6c3f">
+      <Execution id="8de14da8-d952-417b-82d0-cdd830f3aebd" />
+      <TestMethod codeBase="/home/kavia/workspace/code-generation/outage-management-and-dispatch-platform-3142-3151/backend_api.Tests/bin/Release/net8.0/backend_api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="backend_api.Tests.UnitTest1" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e6968a55-7b72-c906-2f04-54bac17f6c3f" executionId="8de14da8-d952-417b-82d0-cdd830f3aebd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 8.0.22)
+[xUnit.net 00:00:00.61]   Discovering: backend_api.Tests
+[xUnit.net 00:00:00.65]   Discovered:  backend_api.Tests
+[xUnit.net 00:00:00.65]   Starting:    backend_api.Tests
+[xUnit.net 00:00:00.71]   Finished:    backend_api.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
