@@ -118,3 +118,7 @@
 /home/kavia/workspace/code-generation/outage-management-and-dispatch-platform-3142-3151/backend_api.Tests/obj/Release/net8.0/backend_api.Tests.pdb
 /home/kavia/workspace/code-generation/outage-management-and-dispatch-platform-3142-3151/backend_api.Tests/obj/Release/net8.0/backend_api.Tests.genruntimeconfig.cache
 /home/kavia/workspace/code-generation/outage-management-and-dispatch-platform-3142-3151/backend_api.Tests/obj/Release/net8.0/ref/backend_api.Tests.dll
+/home/kavia/workspace/code-generation/outage-management-and-dispatch-platform-3142-3151/backend_api.Tests/bin/Release/net8.0/Dapper.dll
+/home/kavia/workspace/code-generation/outage-management-and-dispatch-platform-3142-3151/backend_api.Tests/bin/Release/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/kavia/workspace/code-generation/outage-management-and-dispatch-platform-3142-3151/backend_api.Tests/bin/Release/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/kavia/workspace/code-generation/outage-management-and-dispatch-platform-3142-3151/backend_api.Tests/bin/Release/net8.0/MySqlConnector.dll
