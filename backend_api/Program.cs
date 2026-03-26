@@ -5,6 +5,19 @@ using NSwag.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Ensure we bind to the port expected by the preview platform.
+// Most preview systems inject PORT; ASP.NET can also use ASPNETCORE_URLS.
+// If neither is set, default to 3001 for local/dev parity.
+var portRaw = Environment.GetEnvironmentVariable("PORT");
+if (int.TryParse(portRaw, out var port) && port > 0)
+{
+    builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+}
+else if (string.IsNullOrWhiteSpace(Environment.GetEnvironmentVariable("ASPNETCORE_URLS")))
+{
+    builder.WebHost.UseUrls("http://0.0.0.0:3001");
+}
+
 // Add services
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApiDocument(options =>
