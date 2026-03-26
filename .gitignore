@@ -1,4 +1,6 @@
 # Build outputs
+# NOTE: bin/ and obj/ must never be committed; if they were previously tracked,
+# remove them from the index (git rm -r --cached **/bin **/obj).
 **/bin/
 **/obj/
 
